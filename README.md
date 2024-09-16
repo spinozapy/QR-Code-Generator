@@ -65,10 +65,10 @@ QR Code Generator
 [QR Code Generator]: Enter the text or URL for QR code (type 'exit' to quit):
 root@you:~$ Hello World
 
-[QR Code Generator]: Enter the QR code color in HEX format (e.g., #000000 for black). Press Enter to black.
+[QR Code Generator]: Enter the QR code color in HEX format (e.g., #000000 for black).
 root@you:~$ #FF5733
 
-[QR Code Generator]: Enter the background color in HEX format (e.g., #FFFFFF for white). Press Enter to white.
+[QR Code Generator]: Enter the background color in HEX format (e.g., #FFFFFF for white).
 root@you:~$ #FFFFFF
 
 [QR Code Generator]: QR code has been generated and saved as 'QR Codes/Hello World.png'
