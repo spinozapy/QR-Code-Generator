@@ -47,12 +47,13 @@
     - You will be prompted to enter the foreground (QR code) and background colors in HEX format.
     - If no colors are provided, the QR code will be generated in default black and white colors.
 
-4. The generated QR code will be saved to your local directory as `qr-code.png`.
+4. The generated QR code will be saved in the `QR Codes` directory with the name you provided.
 
 ## Features
 
 - **Customizable Colors:** Users can input HEX codes for the QR code and background colors.
 - **Default Colors:** If no color is provided, the default QR code color is black, and the background color is white.
+- **Directory Organization:** QR codes are saved in a directory named `QR Codes`, with filenames based on user input.
 - **Clear Terminal Interface:** The tool offers a clear terminal interface with color-coded messages using `colorama`.
 
 ## Example
@@ -62,7 +63,7 @@ QR Code Generator
 =================
 
 [QR Code Generator]: Enter the text or URL for QR code (type 'exit' to quit):
-root@you:~$ https://example.com
+root@you:~$ Hello World
 
 [QR Code Generator]: Enter the QR code color in HEX format (e.g., #000000 for black). Press Enter to black.
 root@you:~$ #FF5733
@@ -70,10 +71,4 @@ root@you:~$ #FF5733
 [QR Code Generator]: Enter the background color in HEX format (e.g., #FFFFFF for white). Press Enter to white.
 root@you:~$ #FFFFFF
 
-[QR Code Generator]: QR code has been generated and saved as 'qr-code.png'
-```
-
-## Usage Caution
-
-- Ensure that the text or URL you enter is valid and correct.
-- HEX color codes must be valid; otherwise, the default colors will be applied.
+[QR Code Generator]: QR code has been generated and saved as 'QR Codes/Hello World.png'
