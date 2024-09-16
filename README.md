@@ -5,7 +5,7 @@
 ## Requirements
 
 - Python 3.x
-- `qrcode` library (Install using `pip install qrcode[pil]`)
+- `qrcode` library (Install using `pip install qrcode`)
 - `Pillow` library (Install using `pip install Pillow`)
 - `colorama` library (Install using `pip install colorama`)
 
@@ -29,7 +29,7 @@
 3. Run the tool:
 
     ```bash
-    python qr_generator.py
+    python main.py
     ```
 
 ## Usage
@@ -37,7 +37,7 @@
 1. Start the QR Code Generator:
 
     ```bash
-    python qr_generator.py
+    python main.py
     ```
 
 2. Enter the text or URL for the QR code when prompted.
